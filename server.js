@@ -12,6 +12,6 @@ app.use('/graphql', graphqlHTTP({
   graphiql: true
 }))
 
-app.listen(8888, function () {
+app.listen(8888, () => {
   console.log('running on 8888')
 })
